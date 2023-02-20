@@ -1,0 +1,11 @@
+import random
+a = str(random.randint(100000, 1000000))
+b = [int(i) for i in a]
+if sum(b[:3]) == sum(b[3:]):
+    print(a)
+    print(sum(b[:3]), sum(b[3:]))
+    print('YES ')
+else:
+    print(a)
+    print(sum(b[:3]), sum(b[3:]))
+    print('NO')
