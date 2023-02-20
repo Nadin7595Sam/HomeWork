@@ -1,0 +1,14 @@
+import random
+n = int(random.randint(1, 10))
+m = int(random.randint(1, 10))
+k = int(random.randint(1, 10))
+if k >= n or k >= m:
+    print('Сторона n: ', n)
+    print('Сторона m: ', m)
+    print('Длина разлома: ', k)
+    print('YES')
+else:
+    print('Сторона n: ', n)
+    print('Сторона m: ', m)
+    print('Длина разлома: ', k)
+    print('NO')
