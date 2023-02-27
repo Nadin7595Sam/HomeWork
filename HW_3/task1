@@ -1,0 +1,6 @@
+from random import randint
+n = int(input('Введите количество элементов: '))
+list_1 = [randint(0, 10) for i in range(n)]
+x = int(input('Ведите искомое число: '))
+print(list_1)
+print(list_1.count(x))
