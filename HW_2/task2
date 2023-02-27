@@ -1,0 +1,7 @@
+s = int(input('Сумма: '))
+p = int(input('Произведение: '))
+x = int(input('Первое число: '))
+y = s - x or p / x
+if y == s - x or y == p // x:
+    print(s, p)
+    print(x, y)

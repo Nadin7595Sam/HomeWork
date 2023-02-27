@@ -1,0 +1,8 @@
+from random import randint
+
+n = [randint(0, 1) for i in range(10)]
+print(n)
+if n.count(0) < n.count(1):
+    print('Орёл:', n.count(0))
+else:
+    print('Решка:', n.count(1))
