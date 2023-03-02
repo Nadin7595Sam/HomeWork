@@ -1,0 +1,9 @@
+n = int(input('Введите первое число: '))
+a = {input() for i in range(n)}
+m = int(input('Введите второе число: '))
+b = {input() for i in range(m)}
+c = sorted(a.intersection(b))
+
+print(a)
+print(b)
+print(c)
